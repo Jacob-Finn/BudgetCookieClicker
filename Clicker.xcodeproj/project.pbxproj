@@ -14,6 +14,7 @@
 		7BC9EC41212F072300103E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9EC3F212F072300103E8D /* LaunchScreen.storyboard */; };
 		7BC9EC4C212F072300103E8D /* ClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9EC4B212F072300103E8D /* ClickerTests.swift */; };
 		7BC9EC57212F072300103E8D /* ClickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9EC56212F072300103E8D /* ClickerUITests.swift */; };
+		7BE27B85212F2EC0005586C1 /* PerfectCookie.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE27B84212F2EC0005586C1 /* PerfectCookie.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7BC9EC52212F072300103E8D /* ClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC9EC56212F072300103E8D /* ClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerUITests.swift; sourceTree = "<group>"; };
 		7BC9EC58212F072300103E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE27B84212F2EC0005586C1 /* PerfectCookie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PerfectCookie.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +76,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BAE00E0212F0D30004EE648 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7BE27B84212F2EC0005586C1 /* PerfectCookie.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		7BC9EC2A212F072100103E8D = {
 			isa = PBXGroup;
 			children = (
+				7BAE00E0212F0D30004EE648 /* Resources */,
 				7BC9EC35212F072100103E8D /* Clicker */,
 				7BC9EC4A212F072300103E8D /* ClickerTests */,
 				7BC9EC55212F072300103E8D /* ClickerUITests */,
@@ -232,6 +243,7 @@
 				7BC9EC41212F072300103E8D /* LaunchScreen.storyboard in Resources */,
 				7BC9EC3E212F072300103E8D /* Assets.xcassets in Resources */,
 				7BC9EC3C212F072100103E8D /* Main.storyboard in Resources */,
+				7BE27B85212F2EC0005586C1 /* PerfectCookie.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
